@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "target": "ES2017",
+        "moduleResolution": "node",
+        "removeComments": true,
+        "allowJs": true,
+        "module": "commonjs",
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "noImplicitAny": true,
+        "noUnusedLocals": true,
+        "outDir": "dist/",
+        "strictPropertyInitialization": true,
+        "declaration": false,
+        "strict": true,
+        "alwaysStrict": true,
+        "sourceMap": false,
+        "strictNullChecks": true,
+        "importHelpers": true,
+        "resolveJsonModule": true,
+    },
+    "exclude": ["node_modules", "dist"],
+
+    "include": ["src"]
+}
