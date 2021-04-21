@@ -1,7 +1,7 @@
 {
-  "name": "node-gam",
+  "name": "node-google-ima",
   "version": "1.0.0",
-  "description": "Node with IMA SDK",
+  "description": "Google IMA SDK in Node.js",
   "main": "index.js",
   "scripts": {
     "start": "npm run build:clean && node dist/index.js",
@@ -12,8 +12,6 @@
     "debug": "node --inspect-brk dist/index.js",
     "debug:clean": "npm run build:clean && npm run debug"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
   "devDependencies": {
     "typescript": "^4.2.4"
