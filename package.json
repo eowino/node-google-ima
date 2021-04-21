@@ -7,7 +7,9 @@
     "start": "tsc -w",
 	"build": "tsc",
 	"build:clean": "npm run clean && npm run build",
-	"clean": "rm -rf dist"
+	"clean": "rm -rf dist",
+	"debug": "node --inspect-brk dist/index.js",
+	"debug:clean": "npm run build:clean && npm run debug"
   },
   "keywords": [],
   "author": "",
